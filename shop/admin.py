@@ -9,6 +9,7 @@ class ProductModelAdmin(admin.ModelAdmin):
         'slug': ['title']
     }
     list_display = ("title", "sku", "slug", "category",)
+    list_filter = ('status',)
 
 
 @admin.register(Category)
