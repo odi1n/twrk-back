@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from shop.models import Product, Category, PropertyObject, PropertyValue
+from shop.models import Category, Product, PropertyObject, PropertyValue
 
 
 @admin.register(Product)

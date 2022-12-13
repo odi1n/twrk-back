@@ -1,7 +1,7 @@
 from django.db.models.signals import post_save
-from .utils import convert_image_to_webp
 
 from .models import Product
+from .utils import convert_image_to_webp
 
 
 def product_post_save(sender, instance, created, *args, **kwargs):

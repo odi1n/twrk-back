@@ -1,5 +1,6 @@
-from PIL import Image
 from pathlib import Path
+
+from PIL import Image
 
 
 def convert_image_to_webp(image_path) -> str:

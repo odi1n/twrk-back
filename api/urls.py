@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import ProductList, ProductDetail
 from rest_framework.schemas import get_schema_view
+
+from .views import ProductDetail, ProductList
 
 schema_view = get_schema_view(
     title="Test Shop API",

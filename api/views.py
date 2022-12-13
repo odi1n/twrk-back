@@ -1,4 +1,4 @@
-from rest_framework import generics, filters
+from rest_framework import filters, generics
 
 from shop.models import Product
 from shop.serializers import ProductSerializer
